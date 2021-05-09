@@ -1,5 +1,5 @@
 import {takeEvery,put} from 'redux-saga/effects'
-import {incaction,decaction} from '../Actions/Actions'
+import {incaction,decaction} from '../Actions/CounterActions'
 
 function* updatecount(action){
     if(action.payload === 'INCREMENT'){
